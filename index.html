@@ -9,8 +9,10 @@
       src="https://kit.fontawesome.com/f395998c36.js"
       crossorigin="anonymous"
     ></script>
+
     <!-- Tailwind Css Config link -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- Google EB Garamond Font family link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,7 +62,7 @@
     <!-- Header Section Starts Hare -->
     <header class="container mx-auto mt-12 lg:mt-16 px-4 lg:px-32">
       <div
-        class="w-full h-screen bg-no-repeat object-cover bg-contain"
+        class="lg:w-full h-screen bg-no-repeat object-cover bg-contain"
         style="background-image: url(images/banner.png)"
       >
         <div class="hero-overlay bg-opacity-60"></div>
@@ -93,8 +95,8 @@
     </header>
     <main>
       <!-- The Legal Practice Area Section -->
-      <section class="container mx-auto lg:-mt-28 px-4 lg:px-32">
-        <div class="text-center">
+      <section class="container mx-auto lg:-mt-12 px-4 lg:px-32">
+        <div class="text-center mb-16">
           <h1 class="text-4xl font-extrabold text-[#414040] font-EB">
             The Legal Practice Area
           </h1>
@@ -105,10 +107,11 @@
           </p>
         </div>
         <!-- Card Section and Card container starts Hare -->
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-12">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4"
+        >
           <!-- Card 01 -->
-          <div class="card shadow-xl mt-16 flex flex-col items-center border-2">
+          <div class="card shadow-xl flex flex-col items-center border-2 h-96">
             <div class="mt-6">
               <img src="images/business.png" alt="" />
             </div>
@@ -130,13 +133,13 @@
             </div>
           </div>
           <!-- Card 02 -->
-          <div class="card shadow-xl mt-16 flex flex-col items-center border-2">
+          <div class="card shadow-xl flex flex-col items-center border-2">
             <div class="mt-4">
               <img src="images/criminal.png" alt="" />
             </div>
             <div class="card-body items-center text-center">
               <h2 class="font-EB text-3xl font-extrabold text-[#414040] mt-8">
-                Business Law
+                Criminal Law
               </h2>
               <p class="font-poppins text-xs font-normal text-[#707070] mt-6">
                 There are many variations of <br />
@@ -152,13 +155,13 @@
             </div>
           </div>
           <!-- Card 03 -->
-          <div class="card shadow-xl mt-16 flex flex-col items-center border-2">
+          <div class="card shadow-xl flex flex-col items-center border-2">
             <div class="mt-4">
               <img src="images/child.png" alt="" />
             </div>
             <div class="card-body items-center text-center">
               <h2 class="font-EB text-3xl font-extrabold text-[#414040] mt-8">
-                Business Law
+                Child Support
               </h2>
               <p class="font-poppins text-xs font-normal text-[#707070] mt-6">
                 There are many variations of <br />
@@ -174,13 +177,13 @@
             </div>
           </div>
           <!-- Card 04 -->
-          <div class="card shadow-xl mt-16 flex flex-col items-center">
+          <div class="card shadow-xl flex flex-col items-center border-2 h-96">
             <div class="mt-4">
               <img src="images/education.png" alt="" />
             </div>
             <div class="card-body items-center text-center">
               <h2 class="font-EB text-3xl font-extrabold text-[#414040] mt-8">
-                Business Law
+                Education Law
               </h2>
               <p class="font-poppins text-xs font-normal text-[#707070] mt-6">
                 There are many variations of <br />
@@ -196,13 +199,13 @@
             </div>
           </div>
           <!-- Card 05 -->
-          <div class="card shadow-xl mt-16 flex flex-col items-center border-2">
+          <div class="card shadow-xl flex flex-col items-center border-2">
             <div class="mt-4">
               <img src="images/divorce.png" alt="" />
             </div>
             <div class="card-body items-center text-center">
               <h2 class="font-EB text-3xl font-extrabold text-[#414040] mt-8">
-                Business Law
+                Divorce Law
               </h2>
               <p class="font-poppins text-xs font-normal text-[#707070] mt-6">
                 There are many variations of <br />
@@ -218,13 +221,13 @@
             </div>
           </div>
           <!-- Card 06 -->
-          <div class="card shadow-xl mt-16 flex flex-col items-center border-2">
+          <div class="card shadow-xl flex flex-col items-center border-2">
             <div class="mt-4">
               <img src="images/tax.png" alt="" />
             </div>
             <div class="card-body items-center text-center">
               <h2 class="font-EB text-3xl font-extrabold text-[#414040] mt-8">
-                Business Law
+                Tax Law
               </h2>
               <p class="font-poppins text-xs font-normal text-[#707070] mt-6">
                 There are many variations of <br />
@@ -237,6 +240,158 @@
                   <i class="fa-solid fa-circle-arrow-right"></i>
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What Our Client Say Section -->
+      <section class="container mx-auto px-4 lg:px-32 mt-28">
+        <div class="text-center">
+          <h1 class="text-4xl font-extrabold text-[#414040] font-EB">
+            What Our Client Say
+          </h1>
+          <p class="mt-6 font-poppins">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
+
+        <div
+          class="w-full h-screen bg-no-repeat object-cover bg-contain bg-gradient-to-r from-[#0B0B0B] mt-16"
+          style="
+            background-image: url(images/Rectangle\ 5.png),
+              url(images/banner.png);
+          "
+        >
+          <div class="text-white text-center">
+            <img class="mx-auto lg:pt-24" src="images/Ellipse 1.svg" alt="" />
+            <h1 class="font-EB lg:text-2xl font-extrabold lg:mt-6 opacity-70">
+              Awlad Hossain
+            </h1>
+            <h2 class="font-poppins leading-6 lg:mt-1">UIX Designer</h2>
+
+            <div
+              class="flex items-center justify-between lg:px-14 hidden lg:flex"
+            >
+              <img src="images/Frame (2).svg" alt="" />
+              <img src="images/Frame.svg" alt="" />
+            </div>
+            <p
+              class="font-poppins lg:leading-6 text-[5px] lg:text-sm opacity-70"
+            >
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin <br />
+              literature from 45 BC, making it over 2000 years old. Richard
+              McClintock, a Latin professor at Hampden-Sydney <br />
+              College in Virginia, looked up one of the more obscure Latin
+              words, consectetur.
+            </p>
+            <div class="flex items-center justify-center hidden lg:flex">
+              <img class="mt-10" src="images/Group 21.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Any Questions Section -->
+      <section class="container mx-auto lg:-mt-28 px-4 lg:px-32">
+        <div class="text-center">
+          <h1 class="text-4xl font-extrabold text-[#414040] font-EB">
+            Contact With Us
+          </h1>
+          <p class="mt-6 font-poppins">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
+        <!-- location section -->
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between gap-8 mt-16"
+        >
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <!-- Card 01 -->
+            <div
+              class="card shadow-xl text-center px-14 py-12 bg-[#F3F3F3] border-2 rounded-lg"
+            >
+              <img class="mx-auto" src="images/location.png" alt="" />
+              <h1 class="text-2xl font-extrabold text-[#414040] font-EB mt-4">
+                Address
+              </h1>
+              <p class="font-poppins mt-4 text-[#707070] opacity-70">
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
+            </div>
+            <!-- Card 02 -->
+            <div
+              class="card shadow-xl text-center px-14 py-12 bg-[#F3F3F3] border-2 rounded-lg"
+            >
+              <img class="mx-auto" src="images/location.png" alt="" />
+              <h1 class="text-2xl font-extrabold text-[#414040] font-EB mt-4">
+                Address
+              </h1>
+              <p class="font-poppins mt-4 text-[#707070] opacity-70">
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
+            </div>
+            <!-- Card 03 -->
+            <div
+              class="card shadow-xl text-center px-14 py-12 bg-[#F3F3F3] border-2 rounded-lg"
+            >
+              <img class="mx-auto" src="images/location.png" alt="" />
+              <h1 class="text-2xl font-extrabold text-[#414040] font-EB mt-4">
+                Address
+              </h1>
+              <p class="font-poppins mt-4 text-[#707070] opacity-70">
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
+            </div>
+            <!-- Card 04 -->
+            <div
+              class="card shadow-xl text-center px-14 py-12 bg-[#F3F3F3] border-2 rounded-lg"
+            >
+              <img class="mx-auto" src="images/location.png" alt="" />
+              <h1 class="text-2xl font-extrabold text-[#414040] font-EB mt-4">
+                Address
+              </h1>
+              <p class="font-poppins mt-4 text-[#707070] opacity-70">
+                A108 Adam Street, New York, NY 535022
+              </p>
+            </div>
+          </div>
+          <!-- input section -->
+          <div class="space-y-4 text-[#707070]">
+            <div class="py-6 pl-6 lg:pr-52 bg-[#F3F3F3] rounded-lg">
+              <input class="bg-[#F3F3F3]" type="text" placeholder="Your Name" />
+            </div>
+            <div class="py-6 pl-6 lg:pr-52 bg-[#F3F3F3] rounded-lg">
+              <input
+                class="bg-[#F3F3F3]"
+                type="text"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="py-6 pl-6 lg:pr-52 bg-[#F3F3F3] rounded-lg">
+              <input class="bg-[#F3F3F3]" type="text" placeholder="Subject" />
+            </div>
+            <div class="pt-6 lg:pb-24 pl-6 lg:pr-52 bg-[#F3F3F3] rounded-lg">
+              <input
+                class="bg-[#F3F3F3]"
+                type="text"
+                placeholder="Your Message"
+              />
+            </div>
+            <div class="text-center">
+              <button
+                class="lg:text-xl font-semibold font-poppins text-[#FFF] bg-[#B68C5A] py-5 px-16 md:px-40 lg:px-32 rounded-lg"
+              >
+                Send Message
+              </button>
             </div>
           </div>
         </div>
